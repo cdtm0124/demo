@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('GetProject') {
             steps {
-                git branch: 'main', url: 'https://github.com/cdtm0124/cianspetitions.git'
+                git branch: 'main', url: 'https://github.com/cdtm0124/demo.git'
             }
         }
         stage('Build') {
